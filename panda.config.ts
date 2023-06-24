@@ -12,6 +12,16 @@ export default defineConfig({
 
     // Useful for theme customization
     theme: {
+      tokens: {
+        colors: {
+          blue: { value: '#0088FF' },
+          orange: { value: '#F37021' },
+          yellow: { value: '#FED41D' },
+        },
+        fonts: {
+          body: { value: 'system-ui, sans-serif' }
+        }
+      },
       extend: {}
     },
 

@@ -14,9 +14,9 @@ export default function Home() {
         <Button onClick={() => alert("clicked")} />
       </div>
       <div className={flex({ direction: 'row', align: 'center' })}>
-        <div>First</div>
-        <div>Second</div>
-        <div>Third</div>
+        <div className={css({ color: "blue" })}>First</div>
+        <div className={css({ color: "orange" })}>Second</div>
+        <div className={css({ color: "yellow" })}>Third</div>
       </div>
       <div className={grid({ columns: 3, gap: '6' })}>
         <div>First</div>
